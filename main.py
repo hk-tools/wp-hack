@@ -62,7 +62,7 @@ if __name__ == "__main__":
         
         if result == True:
             uploaded_count += 1
-            print(f"✔ Download  ({percent}%) - {os.path.basename(img)}", end="\r")
+            print(f"✔ Download  ({percent}%)", end="\r")
         elif result == "skipped_size":
             skipped_count += 1
             file_size = get_file_size_mb(img)
